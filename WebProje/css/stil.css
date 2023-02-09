@@ -1,0 +1,67 @@
+body{
+	background:url(../resimler/bulut.jpg);
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#ana{
+	border:1px solid #336699;
+	width:920px;
+	margin:0px auto;
+	border-radius:10px;
+	height:695px;
+}
+#banner, #menu, #icerik, #alt{
+	margin:5px;
+	border-radius:10px;
+	border:1px solid #336699;
+	background-color:#FFF;
+}
+#banner{
+	background:url(../resimler/banner.jpg);
+	height:200px;
+}
+#menu{
+	width:200px;
+	min-height:400px;
+	float:left;
+}
+#menu ul{
+	list-style-type:none;
+}
+#menu a{
+	border:1px solid #336699;
+	background-color:#aaccff;
+	padding:5px;
+	margin:10px;
+	display:block;
+	text-decoration:none;
+	color:#000080;
+	box-shadow:0 0 5px #000000;
+	border-radius:10px;
+	width:100px;
+	margin-left:-10px;
+	
+}
+#menu a:hover{
+	background-color:#eeeeee;
+	color:#ff0000;
+}
+#icerik{
+	width:695px;
+	float:left;
+	min-height:400px;
+}
+#alt{
+	clear:both;
+	text-align:center;
+	padding:5px;
+	height:50px;
+	line-height:50px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	font-size:15pt;
+}
+iframe{
+	width:695px;
+	height:350px;
+}
